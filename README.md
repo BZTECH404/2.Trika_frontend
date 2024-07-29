@@ -1,6 +1,8 @@
 Trika is a React-based web application that leverages various modern libraries and tools to provide a smooth and dynamic user experience. This README provides an overview of the project structure, dependencies, and usage instructions.
 ```
-Project Structure
+
+
+1. **Project Structure**
 javascript
 trika/
 ├── node_modules/
@@ -24,9 +26,10 @@ trika/
 │   └── index.css
 ├── package.json
 └── README.md
-Dependencies
-Trika uses the following dependencies:
 
+
+2. **Dependencies**
+Trika uses the following dependencies:
 @testing-library/jest-dom: ^5.17.0
 @testing-library/react: ^13.4.0
 @testing-library/user-event: ^13.5.0
@@ -45,47 +48,53 @@ slick-carousel: ^1.8.1
 styled-components: ^6.1.8
 swiper: ^11.0.7
 web-vitals: ^2.1.4
-Scripts
-The following scripts are available for managing the project:
 
+
+3. **Scripts**
+The following scripts are available for managing the project:
 start: Runs the application in development mode.
 build: Builds the application for production.
 test: Runs the test suite.
 eject: Ejects the configuration files from react-scripts.
-ESLint Configuration
-The ESLint configuration extends the following configurations:
 
+
+4. **ESLint Configuration**
+The ESLint configuration extends the following configurations:
 react-app
 react-app/jest
 Browserslist
 The application targets the following browsers:
 
-Production:
+5. **Production**:
 >0.2%
 not dead
 not op_mini all
-Development:
+
+6. **Development*8:
 last 1 chrome version
 last 1 firefox version
 last 1 safari version
-Usage
+
+7. **Usage**
 Install dependencies:
 
-bash
+8. **bash**
 npm install
 Run the application:
 
-bash
+9. **bash**
 npm start
 Build the application:
 
-bash
+10. **bash*8
 npm run build
-Run tests:
 
+11. **Run tests**:
 bash
 npm test
-Components
+
+
+12. **Components**
 Home Component: Displays the main page.
 Path: ./Component/Mainpage/Home.js
 About Component: Provides information about the application.
@@ -98,9 +107,10 @@ Services Component: Lists the services offered.
 Path: ./Component/Service/Services.js
 Contact Component: Provides contact information.
 Path: ./Contact/Contatc.js
-App Component
-The App component sets up the routing for the application using react-router-dom. It uses HashRouter to manage the routing.
 
+
+13. **App Component**
+The App component sets up the routing for the application using react-router-dom. It uses HashRouter to manage the routing.
 jsx
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
