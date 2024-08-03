@@ -11,7 +11,7 @@ function Blogdetail() {
     const param = useParams()
     console.log(param.id, 'd')
     useEffect(() => {
-        axios.get(`https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod/api/blog/${param.id}`)
+        axios.get(`https://ek9ev2ze0d.execute-api.ap-south-1.amazonaws.com/prod/api/blog/${param.id}`)
             .then(response => {
                 console.log(response.data);
                 setSlides(response.data);

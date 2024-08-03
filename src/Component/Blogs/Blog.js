@@ -25,7 +25,7 @@ function Blog() {
     };
 
     useEffect(() => {
-        axios.get('https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod/api/blog')
+        axios.get('https://ek9ev2ze0d.execute-api.ap-south-1.amazonaws.com/prod/api/blog')
             .then(response => {
                 console.log(response.data);
                 setSlides(response.data);
