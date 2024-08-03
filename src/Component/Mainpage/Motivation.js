@@ -22,11 +22,11 @@ function Motivation() {
     // const content = slides.map(slide => slide.content);
     // const bullet = slides.map(slide => slide.bullet);
 
-    https://r8bkfpncj3.execute-api.ap-south-1.amazonaws.com/production
-    // https://r8bkfpncj3.execute-api.ap-south-1.amazonaws.com/production/api/get/motivations
+    https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod
+    // https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod/api/get/motivations
 
     useEffect(() => {
-        axios.get('https://r8bkfpncj3.execute-api.ap-south-1.amazonaws.com/production/api/get/motivations')
+        axios.get('https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod/api/get/motivations')
             .then(response => {
                 console.log(response.data);
                 setData(response.data);

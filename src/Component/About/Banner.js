@@ -7,7 +7,7 @@ function Banner() {
     const location = useLocation(); // Get current location
 
     useEffect(() => {
-        axios.get('https://r8bkfpncj3.execute-api.ap-south-1.amazonaws.com/production/api/banner')
+        axios.get('https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod/api/banner')
             .then(response => {
                 setBanners(response.data.banner);
             })

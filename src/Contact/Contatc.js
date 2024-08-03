@@ -28,7 +28,7 @@ function Contatc() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post('https://r8bkfpncj3.execute-api.ap-south-1.amazonaws.com/production/api/addcontact ', formData);
+      const response = await axios.post('https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod/api/addcontact ', formData);
       setSuccessMessage('Message sent successfully!');
       setErrorMessage('');
       setFormData({

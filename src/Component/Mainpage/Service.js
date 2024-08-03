@@ -18,7 +18,7 @@ function Service() {
     const [hoverTimeout, setHoverTimeout] = useState(null);
 
     useEffect(() => {
-        axios.get('https://r8bkfpncj3.execute-api.ap-south-1.amazonaws.com/production/api/get/services')
+        axios.get('https://q09lk3eaqj.execute-api.ap-south-1.amazonaws.com/prod/api/get/services')
             .then(response => {
                 setData(response.data);
             })
