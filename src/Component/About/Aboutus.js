@@ -5,7 +5,7 @@ function Aboutus() {
     const [data, setData] = useState('')
 
     useEffect(() => {
-        axios.get('https://ek9ev2ze0d.execute-api.ap-south-1.amazonaws.com/prod/api/get/about')
+        axios.get('https://q4h2g3nsue.execute-api.ap-south-1.amazonaws.com/prod/api/get/about')
             .then(response => {
                 console.log(response);
                 setData(response.data);

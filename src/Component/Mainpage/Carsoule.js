@@ -22,7 +22,7 @@ function Carsoule() {
     // }, []);
   
     useEffect(() => {
-      axios.get('https://ek9ev2ze0d.execute-api.ap-south-1.amazonaws.com/prod/api/getimage')
+      axios.get('https://q4h2g3nsue.execute-api.ap-south-1.amazonaws.com/prod/api/getimage')
         .then(response => {
           console.log(response.data);
           setSlides(response.data);
