@@ -7,12 +7,10 @@
 1. [**Demo**](#demo)
 2. [**Features**](#features)
 3. [**Tech Stack**](#tech-stack)
-4. [**Installation**](#installation)
-5. [**Usage**](#usage)
-6. [**Project Structure**](#project-structure)
-7. [**API Endpoints**](#api-endpoints)
-8. [**Contributing**](#contributing)
-9. [**License**](#license)
+4. [**Usage**](#usage)
+5. [**Project Structure**](#project-structure)
+6. [**Contributing**](#contributing)
+
 
 ---
 
