@@ -1,105 +1,89 @@
-Trika Yoga
+# Trika Yoga
 
-Trika Yoga is a modern, responsive web application designed to provide users with an immersive and user-friendly yoga dashboard experience. Built using cutting-edge technologies, Trika Yoga enables seamless interaction with features like user authentication, CRUD operations, and protected routes.
+**Trika Yoga** is a modern, responsive web application designed to provide users with an immersive and user-friendly yoga dashboard experience. Built using cutting-edge technologies, **Trika Yoga** enables seamless interaction with features like user authentication, CRUD operations, and protected routes.
 
-Table of Contents
+## Table of Contents
 
-Demo
+1. [**Demo**](#demo)
+2. [**Features**](#features)
+3. [**Tech Stack**](#tech-stack)
+4. [**Installation**](#installation)
+5. [**Usage**](#usage)
+6. [**Project Structure**](#project-structure)
+7. [**API Endpoints**](#api-endpoints)
+8. [**Contributing**](#contributing)
+9. [**License**](#license)
 
-Features
+---
 
-Tech Stack
+## Demo
 
-Installation
+Check out the live demo of **Trika Yoga** [here](https://devtrika.bhole.co/).
 
-Usage
+---
 
-Project Structure
+## Features
 
-API Endpoints
+- **User Authentication**: Secure login and registration with token-based authentication.
+- **Dashboard**: Interactive dashboard showcasing personalized yoga content.
+- **CRUD Operations**: Manage user data and yoga-related content seamlessly.
+- **Responsive Design**: Mobile-first design for a seamless experience across devices.
+- **Protected Routes**: Ensure only authenticated users can access specific routes.
+- **Toast Notifications**: Instant feedback for actions like form submissions and file uploads.
 
-Contributing
+---
 
-License
+## Tech Stack
 
-Demo
+**Frontend**:
+- **React.js**
+- **Bootstrap 5**
+- **React Router DOM**
 
-Check out the live demo of Trika Yoga here.
+**Backend**:
+- **Node.js**
+- **Express.js**
+- **MongoDB** (Database)
 
-Features
+**Hosting**:
+- **AWS** (APIs and backend)
+- [Link to live site](https://devtrika.bhole.co/)
 
-User Authentication: Secure login and registration with token-based authentication.
+---
 
-Dashboard: Interactive dashboard showcasing personalized yoga content.
+## Installation
 
-CRUD Operations: Manage user data and yoga-related content seamlessly.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/trika_frontend.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd trika_frontend
+   ```
+3. Install dependencies for both the frontend and backend:
+   ```bash
+   npm install
+   ```
 
-Responsive Design: Mobile-first design for a seamless experience across devices.
+5. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Protected Routes: Ensure only authenticated users can access specific routes.
+---
 
-Toast Notifications: Instant feedback for actions like form submissions and file uploads.
+## Usage
 
-Tech Stack
+1. Open your browser and navigate to `http://localhost:3000` for the frontend.
+2. Use the API endpoints (see below) for backend operations.
+3. Create an account or log in to access the features.
 
-Frontend:
+---
 
-React.js
+## Project Structure
 
-Bootstrap 5
-
-React Router DOM
-
-Backend:
-
-Node.js
-
-Express.js
-
-MongoDB (Database)
-
-Hosting:
-
-AWS (APIs and backend)
-
-Link to live site
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/trika_frontend.git
-
-Navigate to the project directory:
-
-cd trika_frontend
-
-Install dependencies for both the frontend and backend:
-
-npm install
-
-Create a .env file in the root directory with the following variables:
-
-MONGO_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret>
-AWS_ACCESS_KEY_ID=<your-aws-access-key>
-AWS_SECRET_ACCESS_KEY=<your-aws-secret-key>
-S3_BUCKET_NAME=<your-s3-bucket-name>
-
-Start the development server:
-
-npm run dev
-
-Usage
-
-Open your browser and navigate to http://localhost:3000 for the frontend.
-
-Use the API endpoints (see below) for backend operations.
-
-Create an account or log in to access the features.
-
-Project Structure
-
+```
 trika-yoga/
 ├── backend/
 │   ├── controllers/
@@ -115,54 +99,34 @@ trika-yoga/
 │   │   └── App.js
 │   └── package.json
 └── README.md
+```
 
-API Endpoints
+---
 
-Authentication
 
-POST /api/auth/register - Register a new user
+## Contributing
 
-POST /api/auth/login - Log in a user and get a token
+We welcome contributions to improve **Trika Yoga**! To contribute:
 
-Dashboard
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes.
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push your branch.
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-GET /api/dashboard - Fetch user-specific dashboard data
+---
 
-Content Management
 
-GET /api/content - Retrieve yoga content
+## Acknowledgments
 
-POST /api/content - Add new content
-
-PUT /api/content/:id - Update content
-
-DELETE /api/content/:id - Delete content
-
-Contributing
-
-We welcome contributions to improve Trika Yoga! To contribute:
-
-Fork the repository.
-
-Create a new branch for your feature or bug fix.
-
-git checkout -b feature-name
-
-Commit your changes.
-
-git commit -m "Add new feature"
-
-Push your branch.
-
-git push origin feature-name
-
-Open a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-
-Special thanks to everyone who contributed to the development of Trika Yoga.
+Special thanks to everyone who contributed to the development of **Trika Yoga**.
 
